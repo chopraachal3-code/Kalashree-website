@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalashree Printers – Luxury Wedding Invitations</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== OVERLAY (sidebar backdrop) ===================== -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ===================== SIDEBAR NAV ===================== -->
+  <nav class="sidebar" id="sidebar" aria-label="Main navigation">
+    <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="sidebar-brand">
+      <span class="sidebar-brand-ornament">✦</span>
+      <span>Kalashree Printers</span>
+      <span class="sidebar-brand-ornament">✦</span>
+    </div>
+    <ul class="sidebar-links">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#categories" class="nav-link">Categories</a></li>
+      <li><a href="#about" class="nav-link">About Us</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <p>Since 1986</p>
+      <p>Crafting timeless invitations</p>
+    </div>
+  </nav>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <button class="header-btn hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="header-brand">
+      <span class="brand-ornament">✦</span>
+      <a href="#hero" class="brand-name">Kalashree Printers</a>
+      <span class="brand-ornament">✦</span>
+    </div>
+
+    <div class="header-right">
+      <button class="header-btn search-toggle" id="searchToggle" aria-label="Toggle search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+      <div class="search-bar" id="searchBar">
+        <input type="text" id="searchInput" placeholder="Search products…" autocomplete="off" />
+        <button id="searchClear" aria-label="Clear search"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search results dropdown -->
+  <div class="search-results" id="searchResults"></div>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-sub fade-in">Est. 1986 · Nagda, Madhya Pradesh</p>
+      <h1 class="hero-title fade-in delay-1">
+        Where Every Invitation<br />
+        <em>Tells Your Love Story</em>
+      </h1>
+      <p class="hero-tagline fade-in delay-2">
+        Bespoke luxury wedding invitations crafted with elegance,<br class="br-hide" />
+        designed to herald your most cherished beginning.
+      </p>
+      <div class="hero-cta fade-in delay-3">
+        <a href="#products" class="btn-primary">Explore Collection</a>
+        <a href="#contact" class="btn-outline">Get a Quote</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE STRIP ===================== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Wedding Cards</span><span class="dot">✦</span>
+      <span>E-Invites</span><span class="dot">✦</span>
+      <span>Birthday Invites</span><span class="dot">✦</span>
+      <span>Anniversary Cards</span><span class="dot">✦</span>
+      <span>Inauguration Invites</span><span class="dot">✦</span>
+      <span>Laser Cut Designs</span><span class="dot">✦</span>
+      <span>Box Invitations</span><span class="dot">✦</span>
+      <span>Wedding Cards</span><span class="dot">✦</span>
+      <span>E-Invites</span><span class="dot">✦</span>
+      <span>Birthday Invites</span><span class="dot">✦</span>
+      <span>Anniversary Cards</span><span class="dot">✦</span>
+      <span>Inauguration Invites</span><span class="dot">✦</span>
+      <span>Laser Cut Designs</span><span class="dot">✦</span>
+      <span>Box Invitations</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ===================== PRODUCTS SECTION ===================== -->
+  <section class="section products-section" id="products">
+    <div class="section-header reveal">
+      <p class="section-label">Our Collection</p>
+      <h2 class="section-title">Featured Products</h2>
+      <div class="section-divider"><span>✦</span></div>
+    </div>
+
+    <div class="products-track-wrapper">
+      <div class="products-track" id="productsTrack">
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?w=600&q=80" alt="Gold Foil Wedding Invitation" loading="lazy" />
+            <div class="product-badge">Bestseller</div>
+          </div>
+          <div class="product-info">
+            <h3>Wedding Invites</h3>
+            <p>Classic wedding invites with premium quality</p>
+            <button class="btn-enquire" data-product="Gold Foil Elegance">Enquire Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80" alt="Floral Wedding Invitation" loading="lazy" />
+            <div class="product-badge">New</div>
+          </div>
+          <div class="product-info">
+            <h3>Floral Cards</h3>
+            <p>Hand-illustrated floral motifs with pastel tones</p>
+            <button class="btn-enquire" data-product="Floral Rhapsody">Enquire Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80" alt="Velvet Box Invitation" loading="lazy" />
+          </div>
+          <div class="product-info">
+            <h3>Box padding cards</h3>
+            <p>Luxurious box invitation set</p>
+            <button class="btn-enquire" data-product="Velvet Box Suite">Enquire Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80" alt="Laser Cut Wedding Card" loading="lazy" />
+            <div class="product-badge">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3>Laser Cut Cards</h3>
+            <p>laser-cut design</p>
+            <button class="btn-enquire" data-product="Laser Cut Mandala">Enquire Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1529636798458-92182e662485?w=600&q=80" alt="Scroll Invitation" loading="lazy" />
+          </div>
+          <div class="product-info">
+            <h3>Royal Scroll</h3>
+            <p>Reception Cards</p>
+            <button class="btn-enquire" data-product="Royal Scroll">Enquire Now</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- Scroll arrows -->
+      <button class="track-arrow track-prev" id="trackPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="track-arrow track-next" id="trackNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="track-dots" id="trackDots"></div>
+  </section>
+
+  
+  <!-- ===================== WHY CHOOSE US / TRUST STRIP ===================== -->
+  <section class="trust-section reveal">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h4>Free Delivery</h4>
+        <p>On orders above ₹6,000</p>
+      </div>
+      <div class="trust-item">
+        <i class="fa-solid fa-star"></i>
+        <h4>Premium Quality</h4>
+        <p>Finest paper &amp; print finishes</p>
+      </div>
+      <div class="trust-item">
+        <i class="fa-solid fa-clock"></i>
+        <h4>Open 9 AM – 8 PM</h4>
+        <p>All days including Sundays</p>
+      </div>
+      <div class="trust-item">
+        <i class="fa-solid fa-medal"></i>
+        <h4>Since 1986</h4>
+        <p>35+ years of crafting memories</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT US ===================== -->
+  <section class="section about-section" id="about">
+    <div class="about-grid">
+      <div class="about-image-col reveal">
+        <div class="about-img-frame">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=700&q=80" alt="Kalashree Printers Workshop" loading="lazy" />
+          <div class="about-img-accent"></div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-year">1986</span>
+          <span class="badge-label">Est.</span>
+        </div>
+      </div>
+      <div class="about-content-col reveal">
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title left">About<br /><em>Kalashree Printers</em></h2>
+        <div class="section-divider left"><span>✦</span></div>
+        <p class="about-tagline">"Crafting timeless invitations for your most cherished moments since 1986."</p>
+        <p class="about-text">
+          Nestled in the heart of Nagda, Madhya Pradesh, Kalashree Printers has spent nearly four decades perfecting the art of invitation design. What began as a small family workshop has grown into the region's most trusted name for luxury wedding cards and event stationery.
+        </p>
+        <p class="about-text">
+          Every card that leaves our studio carries with it a piece of our passion — hand-picked materials, meticulous printing, and designs that honour the sanctity of your celebrations.
+        </p>
+        <ul class="about-features">
+          <li><i class="fa-solid fa-check"></i> Free delivery on orders above ₹6,000</li>
+          <li><i class="fa-solid fa-check"></i> Minimum order: 100 cards per design</li>
+          <li><i class="fa-solid fa-check"></i> Open daily: 9 AM – 8 PM</li>
+          <li><i class="fa-solid fa-check"></i> Customisation available on all designs</li>
+        </ul>
+        <a href="#contact" class="btn-primary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section class="section contact-section" id="contact">
+    <div class="section-header reveal">
+      <p class="section-label">Get in Touch</p>
+      <h2 class="section-title">Contact Us</h2>
+      <div class="section-divider"><span>✦</span></div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:9826779199">98267 79199</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4>Address</h4>
+            <p>Ramshay Marg, Nagda,<br />Madhya Pradesh, India</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>Monday – Sunday<br />9:00 AM – 8:00 PM</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div>
+            <h4>Free Delivery</h4>
+            <p>On all orders above ₹6,000</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="c-name">Your Name</label>
+            <input type="text" id="c-name" name="name" placeholder="e.g. Priya Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="c-phone">Phone Number</label>
+            <input type="tel" id="c-phone" name="phone" placeholder="e.g. 9826779199" required />
+          </div>
+          <div class="form-group">
+            <label for="c-email">Email Address</label>
+            <input type="email" id="c-email" name="email" placeholder="e.g. you@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="c-message">Message</label>
+            <textarea id="c-message" name="message" rows="4" placeholder="Tell us about your requirements…"></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-ornament">✦</span>
+        <span>Kalashree Printers</span>
+        <span class="brand-ornament">✦</span>
+      </div>
+      <p class="footer-tagline">Crafting timeless invitations since 1986</p>
+      <ul class="footer-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="footer-copy">© 2025 Kalashree Printers. All rights reserved. · Nagda, MP, India</p>
+    </div>
+  </footer>
+
+  <!-- ===================== ENQUIRY MODAL ===================== -->
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal" id="enquiryModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+    <div class="modal-header">
+      <span class="modal-ornament">✦</span>
+      <h2 id="modalTitle">Enquire Now</h2>
+      <p id="modalProduct" class="modal-product-name"></p>
+    </div>
+    <form class="modal-form" id="enquiryForm" novalidate>
+      <div class="form-group">
+        <label for="m-name">Your Name *</label>
+        <input type="text" id="m-name" name="name" placeholder="Full Name" required />
+      </div>
+      <div class="form-group">
+        <label for="m-phone">Phone Number *</label>
+        <input type="tel" id="m-phone" name="phone" placeholder="10-digit mobile number" required />
+      </div>
+      <div class="form-group">
+        <label for="m-email">Email Address</label>
+        <input type="email" id="m-email" name="email" placeholder="you@email.com" />
+      </div>
+      <div class="form-group">
+        <label for="m-message">Message / Requirements</label>
+        <textarea id="m-message" name="message" rows="3" placeholder="Quantity, customisation details, occasion date…"></textarea>
+      </div>
+      <button type="submit" class="btn-red full-width">Submit Enquiry</button>
+    </form>
+  </div>
+
+  <!-- ===================== SUCCESS TOAST ===================== -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMsg">Enquiry submitted! We'll contact you shortly.</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
